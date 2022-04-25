@@ -65,7 +65,7 @@ telling the player what to do at the moment and how much time they have left to 
 
 ## Interview Recording URL Link
 
-[My 5-minute Interview Recording](your-link-here)
+https://www.loom.com/share/797be98eb2604d7fb739e28fff03cd71
 
 
 ## License
