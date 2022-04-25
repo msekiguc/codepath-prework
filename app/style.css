@@ -1,0 +1,87 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+
+/* adjust typography defaults */
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #d0ba92;
+  color: black;
+}
+
+h1 {
+  font-family: verdana, arial, sans-serif;
+}
+
+button {
+  padding: 15px;
+  border-radius:10px;
+}
+
+#gameButtonArea > button {
+  width: 200px;
+  height: 200px;
+  margin: 2px;
+  
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+  background: lightgreen;
+}
+#button1:active, #button1.lit {
+  background: url(https://cdn.glitch.global/6d360624-937d-44e7-9506-2be9b607e6b2/apple.png?v=1650257378372);
+}
+#button2 {
+  background: lightblue;
+}
+#button2:active, #button2.lit {
+  background: url(https://cdn.glitch.global/6d360624-937d-44e7-9506-2be9b607e6b2/clouds.png?v=1650257374094);
+}
+#button3 {
+  background: pink;
+}
+#button3:active, #button3.lit {
+  background: url(https://cdn.glitch.global/6d360624-937d-44e7-9506-2be9b607e6b2/cherry%20blossom.png?v=1650257448753);
+}
+#button4 {
+  background: lightyellow;
+}
+#button4:active, #button4.lit {
+  background: url(https://cdn.glitch.global/6d360624-937d-44e7-9506-2be9b607e6b2/beach.png?v=1650257378580);
+}
+#button5 {
+  background: #FFD580;
+}
+#button5:active, #button5.lit {
+  background: url('https://cdn.glitch.global/6d360624-937d-44e7-9506-2be9b607e6b2/1200px-Purdue_Boilermakers_logo.svg%20(1).png?v=1650257419867');
+}
+#button6 {
+  background: #b19cd9;
+}
+#button6:active, #button6.lit {
+  background: url('https://cdn.glitch.global/6d360624-937d-44e7-9506-2be9b607e6b2/space%20(1).png?v=1650257371316');
+}
+
+
+/* images and videos max out at full width */
+img,
+video {
+  height: auto;
+  max-width: 100%;
+}
